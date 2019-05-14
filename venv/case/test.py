@@ -1,7 +1,7 @@
 import sys,os
 sys.path.append(os.path.dirname(os.getcwd()))
 sys.path.append(os.path.join(os.path.dirname(os.getcwd()),"Lib\\site-packages\\"))
-from BeautifulReport import BeautifulReport
+from BeautifulReport.BeautifulReport import BeautifulReport
 import unittest,time
 from util.opera_db import OperationDB
 import ddt
