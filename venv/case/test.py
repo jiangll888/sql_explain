@@ -25,6 +25,7 @@ class Test(unittest.TestCase):
         self.res = r.run_main()
 
 if __name__ == "__main__":
-    suite = unittest.TestLoader().loadTestsFromTestCase(Test)
-    filename = time.strftime("%Y-%m-%d %H-%M-%S")
-    BeautifulReport(suite).report(description="sql执行计划",filename=filename,log_path="../report")
+    # suite = unittest.TestLoader().loadTestsFromTestCase(Test)
+    # filename = time.strftime("%Y-%m-%d %H-%M-%S")
+    # BeautifulReport(suite).report(description="sql执行计划",filename=filename,log_path="../report")
+    print(sys.path)
